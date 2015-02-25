@@ -34,7 +34,7 @@
 <NumElts>2</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\dhstuart\Documents\LabVIEW Data\Logged Data.tdms</Val>
+<Val>C:\Users\dhstuart\Dropbox\CLTC\CaliforniaInstrumentsIxSeries</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>

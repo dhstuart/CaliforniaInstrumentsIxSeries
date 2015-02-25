@@ -16,4 +16,9 @@
 	<Item Name="Log Data.vi" Type="VI" URL="../Log Data.vi"/>
 	<Item Name="Flush Data to Log File.vi" Type="VI" URL="../Flush Data to Log File.vi"/>
 	<Item Name="Error Handler - Logging Message Loop.vi" Type="VI" URL="../Error Handler - Logging Message Loop.vi"/>
+	<Item Name="Write file.vi" Type="VI" URL="../Write file.vi"/>
+	<Item Name="Build Filename.vi" Type="VI" URL="../Build Filename.vi"/>
+	<Item Name="Set Metadata.vi" Type="VI" URL="../Set Metadata.vi"/>
+	<Item Name="Metadata disable typedef.ctl" Type="VI" URL="../../controls/Metadata disable typedef.ctl"/>
+	<Item Name="Metadata typedef.ctl" Type="VI" URL="../../controls/Metadata typedef.ctl"/>
 </Library>

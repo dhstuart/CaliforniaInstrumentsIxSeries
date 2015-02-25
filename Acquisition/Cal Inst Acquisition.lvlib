@@ -20,10 +20,10 @@
 	<Item Name="Initialize Hardware References.vi" Type="VI" URL="../Initialize Hardware References.vi"/>
 	<Item Name="Stop Acquisition.vi" Type="VI" URL="../Stop Acquisition.vi"/>
 	<Item Name="Error Handler - Acquisition Message Loop.vi" Type="VI" URL="../Error Handler - Acquisition Message Loop.vi"/>
-	<Item Name="electrical2.ctl" Type="VI" URL="../../electrical2.ctl"/>
+	<Item Name="electrical2.ctl" Type="VI" URL="../../controls/electrical2.ctl"/>
 	<Item Name="Cal Inst - Initialize.vi" Type="VI" URL="../Cal Inst - Initialize.vi"/>
 	<Item Name="Cal Inst current voltage waveforms.vi" Type="VI" URL="../Cal Inst current voltage waveforms.vi"/>
-	<Item Name="Cal Inst - raw to waveform array.vi" Type="VI" URL="../Cal Inst custom VIs/Cal Inst - raw to waveform array.vi"/>
+	<Item Name="Cal Inst - raw to waveform array.vi" Type="VI" URL="../Cal Inst - raw to waveform array.vi"/>
 	<Item Name="Cal Inst - read electrical data.vi" Type="VI" URL="../Cal Inst - read electrical data.vi"/>
 	<Item Name="Cal Inst - Take Electrical Measurements.vi" Type="VI" URL="../Cal Inst - Take Electrical Measurements.vi"/>
 </Library>
