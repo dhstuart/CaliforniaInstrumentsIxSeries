@@ -45,6 +45,13 @@
 		<Item Name="Cal Inst Logging.lvlib" Type="Library" URL="../Logging/Cal Inst Logging.lvlib"/>
 		<Item Name="Cal Inst Settings.lvlib" Type="Library" URL="../Settings/Cal Inst Settings.lvlib"/>
 		<Item Name="Cal Inst Main.vi" Type="VI" URL="../Cal Inst Main.vi"/>
+		<Item Name="California Instruments iX Series.lvlib" Type="Library" URL="../Libraries/California Instruments iX Series/California Instruments iX Series.lvlib"/>
+		<Item Name="Metadata disable typedef.ctl" Type="VI" URL="../Metadata disable typedef.ctl"/>
+		<Item Name="Metadata all typedef.ctl" Type="VI" URL="../Metadata all typedef.ctl"/>
+		<Item Name="Yokogawa - write file.vi" Type="VI" URL="../Yokogawa - write file.vi"/>
+		<Item Name="Build Filename.vi" Type="VI" URL="../Build Filename.vi"/>
+		<Item Name="Set Metadata.vi" Type="VI" URL="../Set Metadata.vi"/>
+		<Item Name="Metadata typedef.ctl" Type="VI" URL="../Metadata typedef.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>

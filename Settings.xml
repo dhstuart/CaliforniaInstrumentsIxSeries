@@ -1,0 +1,46 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>13.0f2</Version>
+<Cluster>
+<Name>Settings in</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Hardware Configuration</Name>
+<NumElts>3</NumElts>
+<Refnum>
+<Name>VISA Refnum in</Name>
+<RefKind>VISA</RefKind>
+<Val>COM4</Val>
+</Refnum>
+<Cluster>
+<Name>Serial Configuration</Name>
+<NumElts>2</NumElts>
+<U32>
+<Name>Baud Rate</Name>
+<Val>460800</Val>
+</U32>
+<U16>
+<Name>Flow Control</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+<DBL>
+<Name>Voltage Level (0V)</Name>
+<Val>120.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Logging Configuration</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Log File Base Path</Name>
+<Val>C:\Users\dhstuart\Documents\LabVIEW Data\Logged Data.tdms</Val>
+</Path>
+<Refnum>
+<Name>TDMS File Reference</Name>
+<RefKind>TDMS File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+</Cluster>
+</Cluster>
+</LVData>
