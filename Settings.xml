@@ -6,7 +6,7 @@
 <NumElts>2</NumElts>
 <Cluster>
 <Name>Hardware Configuration</Name>
-<NumElts>3</NumElts>
+<NumElts>5</NumElts>
 <Refnum>
 <Name>VISA Refnum in</Name>
 <RefKind>VISA</RefKind>
@@ -28,13 +28,21 @@
 <Name>Voltage Level (0V)</Name>
 <Val>120.00000000000000</Val>
 </DBL>
+<U16>
+<Name>Output Phase(s) (1-Phase)</Name>
+<Val>1</Val>
+</U16>
+<I32>
+<Name>Active Phase (1:Phase 1)</Name>
+<Val>1</Val>
+</I32>
 </Cluster>
 <Cluster>
 <Name>Logging Configuration</Name>
 <NumElts>2</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\dhstuart\Dropbox\CLTC\CaliforniaInstrumentsIxSeries</Val>
+<Val>C:\Users\dhstuart\Dropbox\CLTC\CaliforniaInstrumentsIxSeries\Output</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>

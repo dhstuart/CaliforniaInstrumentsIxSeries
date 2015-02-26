@@ -26,4 +26,5 @@
 	<Item Name="Cal Inst - raw to waveform array.vi" Type="VI" URL="../Cal Inst - raw to waveform array.vi"/>
 	<Item Name="Cal Inst - read electrical data.vi" Type="VI" URL="../Cal Inst - read electrical data.vi"/>
 	<Item Name="Cal Inst - Take Electrical Measurements.vi" Type="VI" URL="../Cal Inst - Take Electrical Measurements.vi"/>
+	<Item Name="Cal Inst - Number of Phases.vi" Type="VI" URL="../../Settings/Cal Inst - Number of Phases.vi"/>
 </Library>
