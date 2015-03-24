@@ -10,7 +10,7 @@
 <Refnum>
 <Name>VISA Refnum in</Name>
 <RefKind>VISA</RefKind>
-<Val>COM4</Val>
+<Val>COM5</Val>
 </Refnum>
 <Cluster>
 <Name>Serial Configuration</Name>
@@ -30,7 +30,7 @@
 </DBL>
 <U16>
 <Name>Output Phase(s) (1-Phase)</Name>
-<Val>1</Val>
+<Val>0</Val>
 </U16>
 <I32>
 <Name>Active Phase (1:Phase 1)</Name>

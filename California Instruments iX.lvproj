@@ -40,7 +40,6 @@
 			<Item Name="Cal Inst Acquired Data.ctl" Type="VI" URL="../controls/Cal Inst Acquired Data.ctl"/>
 			<Item Name="Cal Inst UI Data.ctl" Type="VI" URL="../controls/Cal Inst UI Data.ctl"/>
 			<Item Name="Cal Inst UI State.ctl" Type="VI" URL="../controls/Cal Inst UI State.ctl"/>
-			<Item Name="Metadata all typedef.ctl" Type="VI" URL="../controls/Metadata all typedef.ctl"/>
 		</Item>
 		<Item Name="Cal Inst Acquisition.lvlib" Type="Library" URL="../Acquisition/Cal Inst Acquisition.lvlib"/>
 		<Item Name="Cal Inst Logging.lvlib" Type="Library" URL="../Logging/Cal Inst Logging.lvlib"/>
@@ -127,6 +126,7 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Cal Inst - Settings.vi" Type="VI" URL="../Acquisition/Cal Inst - Settings.vi"/>
+			<Item Name="Cal Inst - communication settings.vi" Type="VI" URL="../Acquisition/Cal Inst - communication settings.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Continuous Measurement and Logging Application" Type="EXE">
