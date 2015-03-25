@@ -29,4 +29,6 @@
 	<Item Name="Cal Inst - read electrical data.vi" Type="VI" URL="../Cal Inst - read electrical data.vi"/>
 	<Item Name="Cal Inst - Take Electrical Measurements.vi" Type="VI" URL="../Cal Inst - Take Electrical Measurements.vi"/>
 	<Item Name="Cal Inst - Number of Phases.vi" Type="VI" URL="../../Settings/Cal Inst - Number of Phases.vi"/>
+	<Item Name="Cal Inst - Settings.vi" Type="VI" URL="../Cal Inst - Settings.vi"/>
+	<Item Name="Cal Inst - communication settings.vi" Type="VI" URL="../Cal Inst - communication settings.vi"/>
 </Library>
