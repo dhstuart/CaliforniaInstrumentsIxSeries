@@ -21,31 +21,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Project Documentation" Type="Folder">
-			<Item Name="Documentation Images" Type="Folder">
-				<Item Name="loc_continuous_measurement.png" Type="Document" URL="../documentation/loc_continuous_measurement.png"/>
-			</Item>
-			<Item Name="Continuous Measurement and Logging Documentation.html" Type="Document" URL="../documentation/Continuous Measurement and Logging Documentation.html"/>
-		</Item>
-		<Item Name="Support VIs" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Cal Inst Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Cal Inst Message Queue.lvlib"/>
-			<Item Name="Cal Inst User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/Cal Inst User Event - Stop.lvlib"/>
-			<Item Name="Cal Inst Set Enable State on Multiple Controls.vi" Type="VI" URL="../support/Cal Inst Set Enable State on Multiple Controls.vi"/>
-			<Item Name="Cal Inst Check Loop Error.vi" Type="VI" URL="../support/Cal Inst Check Loop Error.vi"/>
-			<Item Name="Cal Inst Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Cal Inst Error Handler - Event Handling Loop.vi"/>
-			<Item Name="Cal Inst Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Cal Inst Error Handler - Message Handling Loop.vi"/>
-		</Item>
-		<Item Name="Type Definitions" Type="Folder">
-			<Item Name="Cal Inst Acquired Data.ctl" Type="VI" URL="../controls/Cal Inst Acquired Data.ctl"/>
-			<Item Name="Cal Inst UI Data.ctl" Type="VI" URL="../controls/Cal Inst UI Data.ctl"/>
-			<Item Name="Cal Inst UI State.ctl" Type="VI" URL="../controls/Cal Inst UI State.ctl"/>
-		</Item>
-		<Item Name="Cal Inst Acquisition.lvlib" Type="Library" URL="../Acquisition/Cal Inst Acquisition.lvlib"/>
-		<Item Name="Cal Inst Logging.lvlib" Type="Library" URL="../Logging/Cal Inst Logging.lvlib"/>
-		<Item Name="Cal Inst Settings.lvlib" Type="Library" URL="../Settings/Cal Inst Settings.lvlib"/>
-		<Item Name="California Instruments iX Series.lvlib" Type="Library" URL="../Libraries/California Instruments iX Series/California Instruments iX Series.lvlib"/>
-		<Item Name="Cal Inst Main.vi" Type="VI" URL="../Cal Inst Main.vi"/>
+		<Item Name="Cal Inst.lvlib" Type="Library" URL="../Cal Inst.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
@@ -58,9 +34,6 @@
 				<Item Name="Read From XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(array).vi"/>
 				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Nearest Frequency for Block.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Frequency for Block.vi"/>
 				<Item Name="Nearest Freq in Int Cycles.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Freq in Int Cycles.vi"/>
@@ -97,6 +70,8 @@
 				<Item Name="FindMatchingCloseTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindMatchingCloseTag.vi"/>
 				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
 				<Item Name="FindElementStartByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElementStartByName.vi"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
+				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -123,11 +98,9 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Cal Inst - Settings.vi" Type="VI" URL="../Acquisition/Cal Inst - Settings.vi"/>
-			<Item Name="Cal Inst - communication settings.vi" Type="VI" URL="../Acquisition/Cal Inst - communication settings.vi"/>
-			<Item Name="Parse for Instrument Name.vi" Type="VI" URL="../support/Message Queue/Parse for Instrument Name.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Continuous Measurement and Logging Application" Type="EXE">
@@ -154,7 +127,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{0F75B76A-443B-4438-959B-EBE33F15004F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Cal Inst Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>

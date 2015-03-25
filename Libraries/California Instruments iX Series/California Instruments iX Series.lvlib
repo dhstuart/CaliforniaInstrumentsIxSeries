@@ -1,6 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="13008000">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
+	<Property Name="NI.Lib.ContainingLib" Type="Str">Cal Inst.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../Cal Inst.lvlib</Property>
 	<Property Name="NI.Lib.DefaultMenu" Type="Str">dir.mnu</Property>
 	<Property Name="NI.Lib.Description" Type="Str">LabVIEW Plug and Play instrument driver for
 California Instruments iX Series AC DC Power Source.</Property>
