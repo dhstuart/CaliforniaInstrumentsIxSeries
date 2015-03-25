@@ -127,6 +127,7 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Cal Inst - Settings.vi" Type="VI" URL="../Acquisition/Cal Inst - Settings.vi"/>
 			<Item Name="Cal Inst - communication settings.vi" Type="VI" URL="../Acquisition/Cal Inst - communication settings.vi"/>
+			<Item Name="Parse for Instrument Name.vi" Type="VI" URL="../support/Message Queue/Parse for Instrument Name.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Continuous Measurement and Logging Application" Type="EXE">
