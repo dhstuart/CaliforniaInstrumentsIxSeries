@@ -11,10 +11,10 @@
 		<Item Name="Continuous Measurement and Logging Documentation.html" Type="Document" URL="../documentation/Continuous Measurement and Logging Documentation.html"/>
 	</Item>
 	<Item Name="Support VIs" Type="Folder">
+		<Item Name="Cal Inst Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Cal Inst Message Queue.lvlib"/>
 		<Item Name="Cal Inst Check Loop Error.vi" Type="VI" URL="../support/Cal Inst Check Loop Error.vi"/>
 		<Item Name="Cal Inst Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Cal Inst Error Handler - Event Handling Loop.vi"/>
 		<Item Name="Cal Inst Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Cal Inst Error Handler - Message Handling Loop.vi"/>
-		<Item Name="Cal Inst Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Cal Inst Message Queue.lvlib"/>
 		<Item Name="Cal Inst Set Enable State on Multiple Controls.vi" Type="VI" URL="../support/Cal Inst Set Enable State on Multiple Controls.vi"/>
 		<Item Name="Cal Inst User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/Cal Inst User Event - Stop.lvlib"/>
 	</Item>
