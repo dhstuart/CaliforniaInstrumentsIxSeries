@@ -21,4 +21,5 @@
 	<Item Name="Write file.vi" Type="VI" URL="../Write file.vi"/>
 	<Item Name="Build Filename.vi" Type="VI" URL="../Build Filename.vi"/>
 	<Item Name="Set Metadata.vi" Type="VI" URL="../Set Metadata.vi"/>
+	<Item Name="Metadata Cluster.ctl" Type="VI" URL="../../Metadata Cluster.ctl"/>
 </Library>
