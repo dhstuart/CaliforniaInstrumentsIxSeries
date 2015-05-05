@@ -29,4 +29,5 @@
 	<Item Name="Cal Inst Settings.lvlib" Type="Library" URL="../Settings/Cal Inst Settings.lvlib"/>
 	<Item Name="California Instruments iX Series.lvlib" Type="Library" URL="../Libraries/California Instruments iX Series/California Instruments iX Series.lvlib"/>
 	<Item Name="Cal Inst Main.vi" Type="VI" URL="../Cal Inst Main.vi"/>
+	<Item Name="Metadata Cluster.ctl" Type="VI" URL="../../avantesSpectrometer/Metadata Cluster.ctl"/>
 </Library>
